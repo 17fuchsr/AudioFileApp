@@ -13,6 +13,7 @@
 		BF9E311F1D2D6180005BF602 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF9E311D1D2D6180005BF602 /* Main.storyboard */; };
 		BF9E31211D2D6180005BF602 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF9E31201D2D6180005BF602 /* Assets.xcassets */; };
 		BF9E31241D2D6180005BF602 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF9E31221D2D6180005BF602 /* LaunchScreen.storyboard */; };
+		BF9E312D1D2D61BD005BF602 /* Recording.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9E312C1D2D61BD005BF602 /* Recording.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		BF9E31201D2D6180005BF602 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF9E31231D2D6180005BF602 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF9E31251D2D6180005BF602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF9E312B1D2D61BD005BF602 /* Recording.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recording.h; sourceTree = "<group>"; };
+		BF9E312C1D2D61BD005BF602 /* Recording.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recording.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				BF9E31181D2D6180005BF602 /* AppDelegate.m */,
 				BF9E311A1D2D6180005BF602 /* ViewController.h */,
 				BF9E311B1D2D6180005BF602 /* ViewController.m */,
+				BF9E312B1D2D61BD005BF602 /* Recording.h */,
+				BF9E312C1D2D61BD005BF602 /* Recording.m */,
 				BF9E311D1D2D6180005BF602 /* Main.storyboard */,
 				BF9E31201D2D6180005BF602 /* Assets.xcassets */,
 				BF9E31221D2D6180005BF602 /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 				BF9E311C1D2D6180005BF602 /* ViewController.m in Sources */,
 				BF9E31191D2D6180005BF602 /* AppDelegate.m in Sources */,
 				BF9E31161D2D6180005BF602 /* main.m in Sources */,
+				BF9E312D1D2D61BD005BF602 /* Recording.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
